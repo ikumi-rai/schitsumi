@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "TypeScript: Current File",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal",
+            "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
+            "skipFiles": ["<node_internals>/**", "${workspaceRoot}/node_modules/**"],
+        }
+    ]
+}
