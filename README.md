@@ -1,0 +1,2 @@
+# schitsumi
+レンジ拾いbot
